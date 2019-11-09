@@ -1,0 +1,266 @@
+
+	html,body{
+		/*
+	    font-family
+	    font-size
+	    color
+	    line-height
+	    letter-spacing
+	     */
+	 
+	     height: 100vh;
+		 background-color:#FFFFFF;
+		 font-size: 14px;
+		 font-family: 'Lato',sans-serif;
+		 color: #151F32;
+	}
+	header{
+		height: 75px;
+		vertical-align: middle;
+		padding-top: 25px;
+		padding-left: 50px;
+		padding-right: 50px;
+		box-sizing: border-box;
+	}
+	 .wrapper{
+	 	 max-width:1160px;
+	 	background: #FAFAFA;
+	 	width: 100%;
+	 	height: 710px;
+	 	margin:auto;
+
+	 }
+	 .middel-menu,.right-menu{
+	 	display: inline-block;
+		
+	}
+	.header-logo{
+		width: 65px;
+		height: auto;
+		margin-left:100px;
+	}
+	.middel-menu{
+		width:calc(100% - 100px - 65px - 100px);
+		text-align: center;
+
+	}
+	
+	.right-menu{
+		width: 100px;
+	}
+	.right-menu-cart{
+		width: 13px;
+		height: auto;
+	}
+	a{
+		text-decoration:none;
+	}
+	.menu-link{
+
+		font-weight: bold;
+		color: inherit;
+		 position: relative;
+		
+	}
+	.menu-link.active::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    width: 19px;
+    height: 1px;
+    background-color: #151F32;
+}
+	 	.menu-link:hover:after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    width: 19px;
+    height: 1px;
+    background-color: #151F32;
+}
+	.middel-menu .menu-link{
+		margin-right: 6.5%;
+		margin-left:6.5%; 
+	}
+	.right-menu-link{
+		margin-right: 35px;
+	}
+	.right-menu-card-container{
+		display: inline-block;
+		padding-top: 2px;
+	}
+	.left-block{
+	position: absolute;
+	width: 341px;
+	height: 132px;
+	left: 168px;
+	top: 167px;
+	font-weight: 900;
+	font-size: 110px;
+	line-height: 132px;
+	display: flex;
+	align-items: center;
+	color: #032F48;
+	}
+	.right-blue-square{
+	position: absolute;
+    background-color: #032F48;
+    width: 565px;
+    height: 492px;
+    position: absolute;
+    left: 690px;
+    top: 109px;
+    overflow: hidden;
+	}
+
+	.title{
+	position: absolute;
+	height: 34px;
+	top:90px;
+	left:76px;
+	font-weight: bold;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 34px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	}
+
+	.right-blue-square p{
+	position: absolute;
+	width: 190px;
+	height: 66px;
+	left: 69px;
+	top: 156px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 157.3%;
+	display: flex;
+	align-items: center;
+	color: #FCD3AC;
+	z-index: 1;
+		}
+
+	.back-arrow{
+	position: absolute;
+	left: 69px;
+	right: 0%;
+	top: 276px;
+	bottom: 14.85%;
+	}
+	.next-arrow{
+	padding-top:273px;
+	padding-left: 113px;
+	}
+
+	.right-acva-square{
+    position: absolute;
+	width: 207px;
+	height: 207px;
+	left: 358px;
+	top: 285px;
+	z-index: 3;
+	background: #78C9C0;
+	}
+
+	.right-red-square{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 499.6px;
+    height: 669.88px;
+    background-color: #E75A31;
+     transform: translate(203px, 323px) rotate(45deg);
+	}
+	.left-yellow-square
+	{
+		position: absolute;
+		
+    bottom: 0;
+    width: 383.08px;
+    height: 0;
+    border-style: solid;
+    border-width: 145px 0 0 152px;
+    border-color: transparent transparent transparent #FEC432;
+	}
+	.left-block-line{
+
+	position: absolute;
+	width: 82px;
+	height: 0px;
+	left: 168px;
+	top: 320px;
+	border:7px solid #032F48;
+   
+       }
+	.text-left-block{
+	position: absolute;
+	width: 194px;
+	height: 66px;
+	left: 168px;
+	top: 506px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 192.3%;
+	color: #344159;
+		}
+	
+	
+	.img-block{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		width: 51px;
+        height:48px;
+        left: 638px;
+        top: 506px;
+        bottom: 156px;
+		/*margin-top:506px;
+		
+		margin-bottom: 156px;*/
+		background-color: #032F48;;
+	}
+	
+	.start-now-block{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		width: 133px;
+		height: 48px;
+		left: 690px;
+		top: 506px;
+		font-weight: 900;
+		font-size: 17px;
+		align-items: center;
+		background: #FFFFFF;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	}
+	.footer-menu{
+	width: 85%;
+	position: absolute;
+	height: 26px;
+	top: 650px;
+	padding-bottom: 34px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 22px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+}
+
+	.footer-menu a {
+		
+    color: #C2C2C2;
+    text-decoration: none;
+    align-items: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+
+}
